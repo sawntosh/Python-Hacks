@@ -6,3 +6,8 @@ def fibonacci(max_value):
         
 for number in fibonacci(1000):
     print(number)
+    
+####### example 2 ###################
+
+g=(i for i in range(5))
+print(type(g))
